@@ -918,3 +918,5 @@ function Decompile(f: (...any) -> (...any), params)
 
 	return string.format("-- Decompiled with Function Dumper (Forked xAPI function decompiler) in about %.14f seconds.\n", tick() - start) .. Output .. 'end', constants, protos, upvalues
 end
+
+return Decompile
